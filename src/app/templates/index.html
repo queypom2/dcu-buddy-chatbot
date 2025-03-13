@@ -1,0 +1,54 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='starter-template.css')}}">
+{% endblock %}
+
+{% block content %}
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">DCUBuddy</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="{{ url_for('login') }}">Login</a></li>
+            <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="banner-text">
+                <div class="text-area">
+                    <span>D</span>
+                    <span>C</span>
+                    <span>U</span>&nbsp;
+                    <span>B</span>
+                    <span>u</span>
+                    <span>d</span>
+                    <span>d</span>
+                    <span>y</span>
+                </div>
+
+                <p>An assistant buddy to help you with campus life</p>
+
+            </div>
+
+        </div><!-- /.container -->
+    </header>
+{% endblock %}

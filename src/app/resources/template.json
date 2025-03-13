@@ -1,0 +1,83 @@
+{
+    "ViewOptions": {
+        "Days": [
+          {
+            "DayOfWeek": 2,
+            "IsDefault": false
+          }
+        ],
+        "Weeks": [
+          {
+            "WeekNumber": 5,
+            "WeekLabel": "Week 5",
+            "FirstDayInWeek": "2019-10-21T00:00:00.000Z"
+          }
+        ],
+        "TimePeriods": [
+          {
+            "Description": "All Day",
+            "StartTime": "09:00",
+            "EndTime": "20:00",
+            "IsDefault": true
+          }
+        ],
+        "DatePeriods": [
+          {
+            "Description": "This Week",
+            "StartDateTime": "2019-09-23T00:00:00.000Z",
+            "EndDateTime": "2020-11-06T00:00:00.000Z",
+            "IsDefault": true,
+            "IsThisWeek": true,
+            "IsNextWeek": false,
+            "Type": "ThisWeek"
+          }
+        ],
+        "LegendItems": [],
+        "InstitutionConfig": {},
+        "DateConfig": {
+          "FirstDayInWeek": 1,
+          "StartDate": "2019-09-23T00:00:00+00:00",
+          "EndDate": "2020-09-29T00:00:00+00:00"
+        },
+        "AllDays": [
+          {
+            "Name": "Monday",
+            "DayOfWeek": 1,
+            "IsDefault": true
+          },
+          {
+            "Name": "Tuesday",
+            "DayOfWeek": 2,
+            "IsDefault": true
+          },
+          {
+            "Name": "Wednesday",
+            "DayOfWeek": 3,
+            "IsDefault": true
+          },
+          {
+            "Name": "Thursday",
+            "DayOfWeek": 4,
+            "IsDefault": true
+          },
+          {
+            "Name": "Friday",
+            "DayOfWeek": 5,
+            "IsDefault": true
+          },
+          {
+            "Name": "Saturday",
+            "DayOfWeek": 6,
+            "IsDefault": false
+          },
+          {
+            "Name": "Sunday",
+            "DayOfWeek": 0,
+            "IsDefault": false
+          }
+        ]
+      },
+      "CategoryIdentities": [
+        "1b3f8d45-a708-f84c-591a-8ca980f4bf5b"
+      ]
+    }

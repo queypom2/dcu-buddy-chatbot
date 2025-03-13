@@ -1,0 +1,49 @@
+categories:
+- commands
+
+conversations:
+- - how can i add assignments?
+  - You can add assignments by using the command <br> !addassignments [Assignment_Name] [Due_Date] <br><br> For example <br> !addassignment CA360-Final_report 15/02/2022
+
+- - add assignments
+  - You can add assignments by using the command <br> !addassignments [Assignment_Name] [Due_Date] <br><br> For example <br> !addassignment CA360-Final_report 15/02/2022
+
+- - how can i delete assignments?
+  - You can delete assignments by using the command <br> !deleteassignment [Assignment_Name] <br><br> For example <br> !deleteassignment CA360-Final_report
+
+- - delete assignments
+  - You can delete assignments by using the command <br> !addassignment [Assignment_Name] <br><br> For example <br> !deleteassignment CA360-Final_report
+
+- - how can i view assignments?
+  - You can view assignments by using the command <br> !viewassignments
+
+- - view assignments
+  - You can view assignments by using the command <br> !viewassignments
+
+- - what can i do with assignments?
+  - You can add assignments by using the command <br> !addassignments [Assignment_Name] [Due_Date] <br><br> For example <br> !addassignment CA360-Final_report 15/02/2022 <br><br> You can delete assignments by using the command <br> !deleteassignment [Assignment_Name] <br><br> For example <br> !deleteassignment CA360-Final_report <br><br> You can view assignments by using the command <br> !viewassignments
+
+- - assignments
+  - You can add assignments by using the command <br> !addassignments [Assignment_Name] [Due_Date] <br><br> For example <br> !addassignment CA360-Final_report 15/02/2022 <br><br> You can delete assignments by using the command <br> !deleteassignment [Assignment_Name] <br><br> For example <br> !deleteassignment CA360-Final_report <br><br> You can view assignments by using the command <br> !viewassignments
+
+
+
+
+
+- - can i change my course?
+  - Sure, you can use the command <br><br> !updatecourse [Course_Code]
+
+- - can i update my course?
+  - Sure, you can use the command <br><br> !updatecourse [Course_Code]
+
+- - change course
+  - Sure, you can use the command <br><br> !updatecourse [Course_Code]
+
+- - update course
+  - Sure, you can use the command <br><br> !updatecourse [Course_Code]
+
+- - what are the commands?
+  - To add assignments <br> !addassignments [Assignment_Name] [Due_Date] <br><br> To delete assignments <br> !deleteassignment [Assignment_Name] <br><br>  To view assignments <br> !viewassignments <br><br> To update your course code <br> !updatecourse [Course_Code]
+
+- - commands?
+  - To add assignments <br> !addassignments [Assignment_Name] [Due_Date] <br><br> To delete assignments <br> !deleteassignment [Assignment_Name] <br><br>  To view assignments <br> !viewassignments <br><br> To update your course code <br> !updatecourse [Course_Code]
